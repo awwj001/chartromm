@@ -10,7 +10,7 @@ ADDR = ('127.0.0.1',8888)
 
 # 发送消息
 def send_msg(s,name):
-  while True:
+  wrue:
     text = input("发言:")
     msg = "C %s %s"%(name,text)
     s.sendto(msg.encode(),ADDR)
